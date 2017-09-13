@@ -1,0 +1,5 @@
+<ce-collection-paginated-list [collections]="collections"                           
+                           (delete)="tryToDelete($event)"
+                           (edit)="tryToEdit($event)"
+                           (filterKeyUp)="handleCollectionsFilterKeyUp($event)">
+</ce-collection-paginated-list>
